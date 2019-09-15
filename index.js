@@ -19,3 +19,9 @@ function sayHiToGrandma(aCall){
     return "I can't hear you!";
   }
 }
+
+function sayHiToGrandma(aCall){
+  if(aCall.toUpperCase() === aCall){
+    return "YES INDEED!";
+  }
+}
